@@ -18,7 +18,6 @@ class FlowText {
     const newWidth = width > maximum ? maximum : width < minimum ? minimum : width
     const fontBase = width / fontRatio
     const fontSize = fontBase > maxFont ? maxFont : fontBase < minFont ? minFont : fontBase
-    console.log(fontSize)
     this.element.style['font-size'] = `${fontSize}px`
   }
 
