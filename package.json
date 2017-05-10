@@ -1,0 +1,8 @@
+{
+  "name": "fit-text",
+  "version": "1.0.0",
+  "description": "Fits text into its parent",
+  "main": "index.js",
+  "author": "Antony Jones",
+  "license": "MIT"
+}
